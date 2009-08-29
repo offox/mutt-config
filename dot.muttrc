@@ -1,9 +1,12 @@
 # Dia 29.08.2009
 # Autor: offox
 
-set imap_user = "xxxx@gmail.com"
-set imap_pass = "xxxx"
-set realname = "Oswaldo F. Filho"
+# O arquivo dor.muttrc.accounts deve ser salvo no home do usuário com a
+# configuração das contas acessadas pelo Mutt.  
+
+source $HOME/.muttrc.accounts
+
+# Configurações do Mutt
 set spoolfile = imaps://imap.gmail.com:993/INBOX
 set folder = imaps://imap.gmail.com:993
 set record=”imaps://imap.gmail.com/[Gmail]/Sent Mail”
